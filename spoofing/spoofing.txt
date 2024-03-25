@@ -1,1 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+session id i unsecured and servece allowed cross site. Which being prevent in secure version by using secret chanel with httpOnly:true and sameSite:true;
+
+
+
+Which CIA properties do you think Spoofing violates?
+I belive should be  c part being violates, because once attacker get sid, sensitive info could expose to other unauthorized user.

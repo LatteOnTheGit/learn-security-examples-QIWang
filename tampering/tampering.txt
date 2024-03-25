@@ -1,0 +1,2 @@
+The insecure version did not sanitize the user input which could lead to error if user input code, and will cause integrity problem when taken user input.
+The secure version, convert user input to sanitized string, which avoid any integrity errors.

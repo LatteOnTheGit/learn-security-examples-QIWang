@@ -1,3 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+In insecure version user could use username in input direct query user password from out db,
+in secure version we senitize username, replace sepcial chars to prevent nosql injection.
 Which CIA property does tampering violate?
+both confidentiality and integrity
 What additional security mechanisms can you incorporate?
+add more restriction on inputs, for example not allowed _, / ....
