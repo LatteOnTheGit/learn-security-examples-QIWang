@@ -1,2 +1,4 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+there is no login or log that contarin income request and store in coming requrest(information)
 - What additional security mechanisms can you incorporate to prevent such attacks?
+add a logstrem which help store all incoming requests url, ip, keep track of who access data(also need login)
